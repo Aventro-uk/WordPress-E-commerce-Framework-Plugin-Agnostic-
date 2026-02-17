@@ -1,0 +1,30 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.sublime-*
+*.sublime-workspace
+*.sublime-project
+.idea/
+
+# WordPress core (if you keep it in the repo – usually excluded)
+/wp/
+
+# Logs
+*.log
+
+# Build assets
+wp-content/themes/ecom-theme/assets/dist/
+wp-content/plugins/ecom-core/assets/dist/
+node_modules/
+
+# Composer
+vendor/
+composer.lock
+
+# Environment
+.env
+.env.local
+.env.*.local
