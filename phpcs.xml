@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<ruleset name="WordPress E‑commerce Framework">
+    <description>PHPCS rules for the framework.</description>
+
+    <!-- Scan all PHP files -->
+    <file>.</file>
+
+    <!-- Exclude common directories -->
+    <exclude-pattern>*/node_modules/*</exclude-pattern>
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+    <exclude-pattern>*/assets/dist/*</exclude-pattern>
+    <exclude-pattern>*/wp-content/*/assets/dist/*</exclude-pattern>
+
+    <!-- Use WordPress Coding Standards -->
+    <rule ref="WordPress"/>
+    <rule ref="WordPress-Core"/>
+    <rule ref="WordPress-Docs"/>
+
+    <!-- Allow short array syntax -->
+    <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
+
+    <!-- Set minimum PHP version -->
+    <config name="minimum_supported_wp_version" value="5.0"/>
+</ruleset>
