@@ -32,7 +32,7 @@ jobs:
       uses: DataDog/synthetics-ci-github-action@87b505388a22005bb8013481e3f73a367b9a53eb # v1.4.0
       with:
         api_key: ${{883c468ce2b5a83f8e4f6eebd8ad7572}}
-        app_key: ${{secrets.DD_APP_KEY}}
+        app_key: ${{934ba72762497d6c2fe4eafa181a0a0a0c918f9d}
         test_search_query: 'tag:e2e-tests' #Modify this tag to suit your tagging strategy
 
 
