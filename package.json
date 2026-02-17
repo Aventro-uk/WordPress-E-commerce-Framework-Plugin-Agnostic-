@@ -1,0 +1,19 @@
+{
+    "name": "wp-ecom-framework",
+    "version": "1.0.0",
+    "description": "Front‑end build tools for WordPress E‑commerce Framework",
+    "scripts": {
+        "build": "webpack --mode production",
+        "watch": "webpack --watch --mode development"
+    },
+    "devDependencies": {
+        "webpack": "^5.88.0",
+        "webpack-cli": "^5.1.0",
+        "mini-css-extract-plugin": "^2.7.0",
+        "css-loader": "^6.8.0",
+        "sass": "^1.63.0",
+        "sass-loader": "^13.3.0",
+        "autoprefixer": "^10.4.0",
+        "postcss-loader": "^7.3.0"
+    }
+}
