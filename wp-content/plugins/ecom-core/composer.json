@@ -1,0 +1,18 @@
+{
+    "name": "yourname/ecom-core",
+    "description": "Core e‑commerce plugin for WordPress",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "EcomCore\\": "src/"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "@php -r \"echo 'Plugin installed.';\""
+        ]
+    }
+}
